@@ -1,8 +1,7 @@
-# Shopping
-This app sends text messages about shopping supplies. It allows users to recieve text messages once a supply of their choosing becomes available on some market. 
-Auth Code was blocked for security reasons.
+This app is designed to help people manage how much they go outside to buy essential items by alerting them of when these items are in stock. People are able to sign up for text notifications on the items that they want to be alerted about. Companies that sell these items can then send out notifications letting people know when they have refilled their stock, stopping people from having to constantly travel and guess which stores have which items.
+
+The app has extensive use of the Twilio API in order to send and recieve text messages. The GUI is designed using Python and Tkinter, which allows stores to easily input which goods they have in stock.
 The running of this requires the use of ngrok by @inconshreveable, as a server to take in the data recieved from phone texts. 
-The app has extensive use of the Twilio API in order to send and recieve text messages. 
 The running of this app consists of a few steps:
 1. Have python3
 2. Have ngrok installed. 
